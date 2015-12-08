@@ -102,6 +102,8 @@ en:
   all: "All"
   learned: "Learned"
   unlearned: "Unlearned"
+  logged_in_at: logged in at
+  logged_out_at: logged out at
   datetime:
     order:
       - :day

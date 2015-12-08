@@ -14,7 +14,7 @@ Rails.application.routes.draw do
     end
 
     devise_for :users, skip: :omniauth_callbacks,
-      controllers: {registrations: "registrations"}
+      controllers: {registrations: "registrations", sessions: "sessions"}
     resources :users
     resources :follows
     resources :categories, only: [:index]
